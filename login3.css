@@ -1,0 +1,89 @@
+ body {
+     font-family: Arial, sans-serif;
+     background: #0d3b46;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     height: 100vh;
+ }
+ 
+ .login-box {
+     background: linear-gradient(#3eb1c8, #78a419);
+     width: 400px;
+     border-radius: 10px;
+     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+     display: flex;
+     overflow: hidden;
+ }
+ 
+ .login-left {
+     flex: 2;
+     padding: 30px;
+     color: white;
+ }
+ 
+ .login-left h2 {
+     margin-bottom: 20px;
+ }
+ 
+ .login-left label {
+     display: block;
+     margin: 10px 0 5px;
+ }
+ 
+ .login-left input {
+     width: 100%;
+     padding: 10px;
+     border: none;
+     border-radius: 5px;
+     margin-bottom: 15px;
+ }
+ 
+ .login-left .options {
+     margin-bottom: 15px;
+     font-size: 14px;
+ }
+ 
+ .login-left button {
+     width: 100%;
+     padding: 12px;
+     background: linear-gradient(#21b04c, #118c30);
+     border: none;
+     border-radius: 5px;
+     font-size: 16px;
+     font-weight: bold;
+     color: white;
+     cursor: pointer;
+     transition: 0.3s;
+ }
+ 
+ .login-left button:hover {
+     background: linear-gradient(#1c7687, #47c1d6);
+ }
+ 
+ .login-left button:active {
+     transform: scale(0.95);
+ }
+ 
+ .login-right {
+     flex: 1;
+     background: #cbd286;
+     color: rgb(0, 0, 0);
+     padding: 30px;
+     font-size: 14px;
+ }
+ 
+ .login-right h3 {
+     margin-bottom: 20px;
+ }
+ 
+ .login-right a {
+     color: #000000;
+     display: block;
+     margin: 10px 0;
+     text-decoration: none;
+ }
+ 
+ .login-right a:hover {
+     text-decoration: underline;
+ }
